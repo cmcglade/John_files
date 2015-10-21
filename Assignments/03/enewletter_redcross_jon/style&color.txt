@@ -1,0 +1,38 @@
+
+style & color
+
+
+style="font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight: normal; line-height:12px"
+
+style="font-family:Georgia,'Times New Roman',serif; font-size:12px;font-weight:normal; line-height:12px"
+
+
+
+logo:
+
+red    #ff0000
+gray01 #666666
+gray02 #ffffff
+
+bottom
+
+gray02 #ffffff
+
+
+logo:
+
+logo.png
+
+picture in contents:
+
+navigation.png
+
+
+buttom:
+
+facebook.png
+
+tumblr.png
+
+twitter.png
+
