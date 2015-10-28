@@ -1,0 +1,140 @@
+/* stylesheet for the test homepage */
+
+
+/* CSS reset */
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+
+
+/* class ----------------------------------------------- */
+
+
+/* content style ----------*/
+
+.maincontent{
+	border: 2px;
+	color: #66a3c9;
+	margin-top: 80px;
+}
+
+.musician{
+	font-family: fantasy;
+	font-weight: 300;
+	color: #07a507;
+}
+
+
+/* article block style ----- */
+
+.article{
+	border: 1px solid #dddbdb;
+	padding: 6px;
+	padding-bottom: 20px;
+	margin: 4px;
+	width: 30%;
+	min-width: 300px;
+	display: inline-block;
+	align-items: center;
+}
+
+.list{
+	font-size: 16px;
+	font-family: sans-serif;
+	color: dodgerblue;
+	padding: 10px;
+}
+
+
+/* navigation style ------------------------- */
+
+.nv{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+.nvlist{
+	display: inline;
+	float: left;
+}
+
+
+.nvlink{
+	display: block;
+	width: 120px;
+	background-color: blueviolet;
+	text-align: center;
+	padding: 30px;
+	text-decoration: none;
+}
+
+
+
+
+
+
+/* id  */
+
+#header{
+	background-color: #005491;
+	padding-left: 10px;
+	position: fixed;
+	width: 100%;
+	left: 0px;
+	height: 80px;
+	align-self: center;
+}
+
+#footer{
+	font-family: monospace;
+	font-size: 28px;
+}
+
+
+
+
+/* basic elements  */
+
+
+body{
+	font-family: sans-serif;
+	padding: 10px;
+}
+
+img{
+	border: 1px solid #d1cfcf;
+	width: 98%;
+}
+
+a:link, a:visited {
+	color: #ffffff;
+	background-color: #005491;
+}
+
+
+a:hover, a:active{
+	background-color: #09285a;
+}
