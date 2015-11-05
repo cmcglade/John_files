@@ -46,6 +46,28 @@ time, mark, audio, video {
 }
 
 
+
+/* block part style ------- */
+
+
+.midnv{
+	margin: 0;
+	
+}
+
+.block{
+	border: 1px solid #dddddd;
+	padding: 10px;
+	margin: 0;
+	background-color: #af68f5;
+	width: 20%;
+	display: inline-block;
+}
+
+
+
+
+
 /* article block style ----- */
 
 .article{
@@ -62,7 +84,7 @@ time, mark, audio, video {
 .list{
 	font-size: 16px;
 	font-family: sans-serif;
-	color: #4672d6;
+	color: dodgerblue;
 	padding: 10px;
 }
 
@@ -73,6 +95,7 @@ time, mark, audio, video {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+	float: right;
 }
 
 
@@ -91,6 +114,10 @@ time, mark, audio, video {
 	text-decoration: none;
 }
 
+.logo{
+	float: left;
+	padding: 20px;
+}
 
 
 
@@ -129,12 +156,28 @@ img{
 	width: 98%;
 }
 
-a:link, a:visited {
+.nv a:link, a:visited {
 	color: #ffffff;
 	background-color: #005491;
 }
 
 
-a:hover, a:active{
+.nv a:hover, a:active{
 	background-color: #09285a;
 }
+
+#header img{
+	width: 40px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
