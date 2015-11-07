@@ -83,7 +83,6 @@ time, mark, audio, video {
 
 /* body style    -----------------------------   */
 
-/* banner  ----*/
 .mid_content{
 	width: 960px;
 	background-color: #ffffff;
@@ -93,11 +92,12 @@ time, mark, audio, video {
 	padding: 0;
 }
 
+
 /* introduction  ----*/
 
 .intro{
 	width: 900px;
-	background-color: #ece4e4;
+	background-color: #ffffff;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: left;
@@ -141,10 +141,14 @@ time, mark, audio, video {
 	font-size: 2em;
 	font-family:sans-serif;
 	font-weight: bold;
+	color: #ffffff;
 }
 
 .intro p{
-	padding: 10px;
+	padding: 6px 10px;
+	font-family: sans-serif;
+	font-size: 1em;
+	color: #ffffff;
 }
 
 .button{
@@ -156,7 +160,141 @@ time, mark, audio, video {
 	margin: 4px 10px 20px;
 }
 
+/*  projects ---------------- */
+
+.projectblock{
+	width: 900px;
+	background-color: #ffffff;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	height: 340px;
+}
+
+.projectblock h1{
+	padding: 20px 0;
+	font-size: 1.5em;
+	font-family:sans-serif;
+	font-weight: bold;
+	color: #797979;
+	text-align: left;
+}
+
+.projectblock h2{
+	padding: 15px 0;
+	font-size: 1em;
+	font-family:sans-serif;
+	font-weight: bold;
+	color: #e37400;
+}
+
+.projectblock p{
+	padding: 6px 0;
+	font-family: sans-serif;
+	font-size: 0.8em;
+	color: #5b5b5b;
+}
 
 
 
-/* class  --------- */
+
+
+
+.project{
+	background-color: #ffffff;
+	display: inline-block;
+	width: 24%;
+	float: left;
+	height: 240px;
+	margin:0 1.33333% 0 0;
+}
+
+.project2{
+	background-color: #ffffff;
+	display: inline-block;
+	width: 24%;
+	float: left;
+	height: 240px;
+}
+
+
+
+
+
+/*  footer   --------------- */
+
+.foot_bg{
+	width: 960px;
+	background-color: #f0eded;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 0;
+}
+
+.foot_container{
+	width: 900px;
+	background-color: #f0eded;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	height: 180px;
+}
+
+.footer{
+	background-color: #f0eded;
+	display: inline-block;
+	width: 24.99999%;
+	float: left;
+	height: 180px;
+}
+
+.footer h2{
+	padding: 20px;
+	font-size: 1em;
+	font-family:sans-serif;
+	font-weight: bold;
+	color: #5e5e5e;
+}
+
+.footer ul{
+	padding: 0 35px;
+	font-family: sans-serif;
+	font-size: 0.8em;
+	color: #5b5b5b;
+	line-height: 20px;
+}
+
+
+/* social media platform ------- */
+
+.socialmedia{
+	background-color: #e2e2e2;
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 20px;
+}
+
+.socialmedia img{
+	float: right;
+	display: inline;
+	margin: 20px 6px 10px;
+
+}
+
+.socialmedia h3{
+	float: right;
+	display: inline;
+	line-height: 70px;
+	font-family: sans-serif;
+	margin: 0 6px;
+	font-size: 1em;
+	color: #5b5b5b;
+}
+
+
+
+
+
+/* end */
