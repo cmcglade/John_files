@@ -127,7 +127,6 @@ time, mark, audio, video {
 	background-color: #68b4d5;
 	display: inline-block;
 	width: 24.99999%;
-	min-width: 220px;
 	float: left;
 	height: 240px;
 }
@@ -136,7 +135,6 @@ time, mark, audio, video {
 	background-color: #68d5b1;
 	display: inline-block;
 	width: 24.99999%;
-	min-width: 220px;
 	float: left;
 	height: 240px;
 }
@@ -145,7 +143,6 @@ time, mark, audio, video {
 	background-color: #6890d5;
 	display: inline-block;
 	width: 24.99999%;
-	min-width: 220px;
 	float: left;
 	height: 240px;
 }
@@ -154,7 +151,6 @@ time, mark, audio, video {
 	background-color: #ff9458;
 	display: inline-block;
 	width: 24.99999%;
-	min-width: 220px;
 	float: left;
 	height: 240px;
 }
