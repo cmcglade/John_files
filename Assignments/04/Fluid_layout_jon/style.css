@@ -42,11 +42,15 @@ time, mark, audio, video {
 /* navigation bar  ---------------------------   */
 
 #nav{
-  width: 960px;
+	max-width: 960px;
+	min-width: 640px;
+	width: 90%;
   height: 80px;
   background-color: #0082c2;
-  margin-left: auto;
+	margin-left: auto;
   margin-right: auto;
+	overflow: hidden;
+
 }
 
 #nav ul{
@@ -84,7 +88,9 @@ time, mark, audio, video {
 /* body style    -----------------------------   */
 
 .mid_content{
-	width: 960px;
+	max-width: 960px;
+	min-width: 640px;
+	width: 90%;
 	background-color: #ffffff;
 	margin-left: auto;
 	margin-right: auto;
@@ -92,22 +98,36 @@ time, mark, audio, video {
 	padding: 0;
 }
 
+.banner{
+	max-width: 900px;
+	min-width: 640px;
+	width: 98%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 6px 0 0;
+}
+
+.banner img{
+	width: 100%;
+}
 
 /* introduction  ----*/
 
 .intro{
-	width: 900px;
+	max-width: 900px;
+	width: 98%;
 	background-color: #ffffff;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: left;
-	height: 240px;
+	height: 100%;
 }
 
 .innovation{
 	background-color: #68b4d5;
 	display: inline-block;
 	width: 24.99999%;
+	min-width: 220px;
 	float: left;
 	height: 240px;
 }
@@ -116,6 +136,7 @@ time, mark, audio, video {
 	background-color: #68d5b1;
 	display: inline-block;
 	width: 24.99999%;
+	min-width: 220px;
 	float: left;
 	height: 240px;
 }
@@ -124,6 +145,7 @@ time, mark, audio, video {
 	background-color: #6890d5;
 	display: inline-block;
 	width: 24.99999%;
+	min-width: 220px;
 	float: left;
 	height: 240px;
 }
@@ -132,6 +154,7 @@ time, mark, audio, video {
 	background-color: #ff9458;
 	display: inline-block;
 	width: 24.99999%;
+	min-width: 220px;
 	float: left;
 	height: 240px;
 }
@@ -163,12 +186,14 @@ time, mark, audio, video {
 /*  projects ---------------- */
 
 .projectblock{
-	width: 900px;
+	max-width: 900px;
+	width: 98%;
 	background-color: #ffffff;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: left;
 	height: 340px;
+	display: inline-block;
 }
 
 .projectblock h1{
@@ -195,11 +220,6 @@ time, mark, audio, video {
 	color: #5b5b5b;
 }
 
-
-
-
-
-
 .project{
 	background-color: #ffffff;
 	display: inline-block;
@@ -207,6 +227,7 @@ time, mark, audio, video {
 	float: left;
 	height: 240px;
 	margin:0 1.33333% 0 0;
+	overflow: hidden;
 }
 
 .project2{
@@ -215,8 +236,8 @@ time, mark, audio, video {
 	width: 24%;
 	float: left;
 	height: 240px;
+	overflow: hidden;
 }
-
 
 
 
@@ -224,7 +245,9 @@ time, mark, audio, video {
 /*  footer   --------------- */
 
 .foot_bg{
-	width: 960px;
+	max-width: 960px;
+	min-width: 640px;
+	width: 90%;
 	background-color: #f0eded;
 	margin-left: auto;
 	margin-right: auto;
@@ -233,7 +256,8 @@ time, mark, audio, video {
 }
 
 .foot_container{
-	width: 900px;
+	max-width: 900px;
+	width: 100%;
 	background-color: #f0eded;
 	margin-left: auto;
 	margin-right: auto;
@@ -270,7 +294,9 @@ time, mark, audio, video {
 
 .socialmedia{
 	background-color: #e2e2e2;
-	width: 960px;
+	max-width: 960px;
+	min-width: 640px;
+	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
 	height: 20px;
